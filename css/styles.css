@@ -59,7 +59,7 @@ body {
 .gallery-image {
     scale: 1;
     transition: scale, cubic-bezier(0.4, 0, 0.2, 1), 250ms;
-    cursor: url(/other/custom-pointer.png), auto;
+    cursor: url(../other/custom-pointer.png), auto;
 }
 
 .gallery-link:hover .gallery-image,
