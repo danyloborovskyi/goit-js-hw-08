@@ -94,4 +94,11 @@ gallery.addEventListener("click", (event) =>{
     `);
     
     instance.show();
+
+    const modalClose = document.querySelector(".modal");
+    modalClose.addEventListener("click", () => {
+        instance.close();
+    });
 });
+
+
